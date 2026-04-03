@@ -5,18 +5,23 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "colors": "^1.4.0",
     "dotenv": "^17.4.0",
     "express": "^5.2.1",
     "express-async-handler": "^1.2.0",
-    "mongoose": "^9.3.3"
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.14"
